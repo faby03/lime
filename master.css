@@ -1,0 +1,66 @@
+body{
+  background-image: url("sfondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sfondo-trasparente{
+  background:rgba(0,0,0, 0.5);
+  padding: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  border-radius: 50px;
+}
+
+header, nav{
+  text-align: center;
+  color: #00dd00;
+}
+
+header,main{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+header>img{
+  width: 200px;
+}
+
+nav{
+  background-color: #00dd00;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+main{
+  color: white;
+}
+
+h2{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.indicatore{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#orange{
+  background-color: orange;
+  margin-right: 55%;
+  color: orange;
+}
+
+#green{
+  background-color: #00dd00;
+  margin-right: 30%;
+  color: #00dd00;
+}
+
+#red{
+  background-color: red;
+  margin-right: 80%;
+  color: red;
+}
